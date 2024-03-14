@@ -84,7 +84,8 @@ ul li a{
 
     .side_bar{
         width: 80%;
-		background-color: var(--primary-color);
+		background-color: rgb(40, 22, 75);
+        /* background-color: black; */
         color: #fff;
 		padding: 10px;
 		display: flex;
@@ -171,6 +172,35 @@ ul li a{
         left: -400%;
     }
 }
+
+.main_main{
+    background-image: url('Thumbnail.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    padding-inline: 50px;
+}
+.main_one{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    /* color: rgb(40, 22, 75); */
+    color: bisque;
+}
+.main_one h2{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_one p{
+    font-size: 20px;
+}
+.main_one div{
+    width: 50%;
+}
+.main_one div img{
+    width: 100%;
+}
+
 .container{
     display: flex;
     padding: 20px;
